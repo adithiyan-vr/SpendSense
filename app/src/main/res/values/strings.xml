@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Information -->
+    <string name="app_name">SpendSense</string>
+    <string name="app_tagline">Track every expense. Know what was needed. Cut what wasn\'t.</string>
+    <string name="app_developer">Developed by Adithiyan V R</string>
+    <string name="app_organization">A Supernovea product</string>
+    <string name="app_copyright">© 2026 Supernovea. All rights reserved.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_analysis">Analysis</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_add_expense">Add Expense</string>
+
+    <!-- Expense Types -->
+    <string name="type_need">Need</string>
+    <string name="type_need_full">Required (Need)</string>
+    <string name="type_waste">Waste</string>
+    <string name="type_waste_full">Non-Required (Waste)</string>
+    <string name="decision_test_prompt">If I skipped this for a month, would my studies, health, or basic living suffer?</string>
+    <string name="decision_test_helper">Skip it for a month — would it hurt studies, health or basic living?</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_close">Close</string>
+    <string name="action_add">Add</string>
+    <string name="status_saved">Saved</string>
+    <string name="status_deleted">Deleted</string>
+
+    <!-- Currency & Periods -->
+    <string name="default_currency_symbol">₹</string>
+    <string name="period_week">Week</string>
+    <string name="period_month">Month</string>
+    <string name="period_custom">Custom</string>
+    <string name="period_today">Today</string>
+    <string name="period_this_week">This week</string>
+    <string name="period_this_month">This month</string>
+
+    <!-- Greetings -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="default_user_name">Friend</string>
+
+    <!-- Home Dashboard -->
+    <string name="home_delta_up">▲ %1$s%% vs last mo.</string>
+    <string name="home_delta_down">▼ %1$s%% vs last mo.</string>
+    <string name="home_budget_used">Budget %1$d%% used</string>
+    <string name="home_budget_over">Budget exceeded by %1$s</string>
+    <string name="home_waste_pct">Waste %1$d%%</string>
+    <string name="home_waste_amount">Waste %1$s</string>
+    <string name="home_recent_expenses">Recent expenses</string>
+    <string name="home_see_all">See all</string>
+    <string name="home_empty_title">No expenses yet</string>
+    <string name="home_empty_subtitle">Start tracking your spending to see honest insights into your needs and waste.</string>
+    <string name="home_add_first_expense">Add your first expense</string>
+    <string name="home_insights_title">Insights</string>
+
+    <!-- History Screen -->
+    <string name="history_title">History</string>
+    <string name="history_search_hint">Search note or category…</string>
+    <string name="history_filter_all">All</string>
+    <string name="history_filter_need">✓ Need</string>
+    <string name="history_filter_waste">⚠ Waste</string>
+    <string name="history_filter_payment">Payment</string>
+    <string name="history_filter_category">Category</string>
+    <string name="history_empty_title">No expenses found</string>
+    <string name="history_empty_subtitle">Try adjusting your search or filters.</string>
+    <string name="history_deleted_snackbar">Expense deleted</string>
+    <string name="history_day_today">Today</string>
+    <string name="history_day_yesterday">Yesterday</string>
+
+    <!-- Add / Edit Expense Screen -->
+    <string name="add_expense_title">Add Expense</string>
+    <string name="edit_expense_title">Edit Expense</string>
+    <string name="amount_hint">0</string>
+    <string name="category_section_title">Category</string>
+    <string name="category_add_new">＋ New</string>
+    <string name="note_hint">Add a note (optional)</string>
+    <string name="payment_method_label">Payment method</string>
+    <string name="date_label">Date</string>
+    <string name="date_today">Today</string>
+    <string name="date_yesterday">Yesterday</string>
+    <string name="date_time_label">Date &amp; Time</string>
+    <string name="error_amount_zero">Enter an amount greater than zero</string>
+    <string name="error_category_required">Please select a category</string>
+    <string name="expense_saved_message">Expense saved</string>
+    <string name="expense_updated_message">Expense updated</string>
+    <string name="new_category_title">New Category</string>
+    <string name="category_name_hint">Category name</string>
+    <string name="save_category">Create Category</string>
+
+    <!-- Payment Methods -->
+    <string name="payment_cash">Cash</string>
+    <string name="payment_upi">UPI</string>
+    <string name="payment_card">Card</string>
+    <string name="payment_other">Other</string>
+
+    <!-- Analysis Screen -->
+    <string name="analysis_title">Analysis</string>
+    <string name="analysis_prev_period">Previous period</string>
+    <string name="analysis_next_period">Next period</string>
+    <string name="analysis_total_spent">Total Spent</string>
+    <string name="analysis_delta_up">▲ %1$s%% vs last %2$s</string>
+    <string name="analysis_delta_down">▼ %1$s%% vs last %2$s</string>
+    <string name="analysis_pts_up">▲ %1$s pts</string>
+    <string name="analysis_pts_down">▼ %1$s pts</string>
+    <string name="analysis_spending_by_day">Spending by day (Need vs Waste)</string>
+    <string name="analysis_spending_by_week">Spending by week (Need vs Waste)</string>
+    <string name="analysis_top_categories">Top categories</string>
+    <string name="analysis_peak_day">Peak day</string>
+    <string name="analysis_avg_daily">Avg/day</string>
+    <string name="analysis_clean_days">Clean days</string>
+    <string name="analysis_view_as_table">View as table</string>
+    <string name="analysis_hide_table">Hide table</string>
+    <string name="analysis_col_period">Period</string>
+    <string name="analysis_col_need">Need</string>
+    <string name="analysis_col_waste">Waste</string>
+    <string name="analysis_col_total">Total</string>
+    <string name="analysis_empty_title">No spending this %1$s</string>
+    <string name="analysis_empty_subtitle">No expenses were logged for this period. Browse earlier periods or log a new expense.</string>
+    <string name="analysis_budget_usage">Budget usage</string>
+    <string name="analysis_insights_title">Insights</string>
+
+    <!-- Categories Screen -->
+    <string name="categories_title">Categories</string>
+    <string name="categories_tab_active">Active</string>
+    <string name="categories_tab_archived">Archived</string>
+    <string name="categories_add_category">Add Category</string>
+    <string name="categories_edit_category">Edit Category</string>
+    <string name="categories_name_label">Category Name</string>
+    <string name="categories_icon_label">Select Icon</string>
+    <string name="categories_color_label">Select Color</string>
+    <string name="categories_default_type_label">Default Type</string>
+    <string name="categories_archive">Archive</string>
+    <string name="categories_unarchive">Restore</string>
+    <string name="categories_archive_confirm">Archive category?</string>
+    <string name="categories_archive_desc">Archived categories will not appear when adding new expenses, but past transactions remain intact.</string>
+    <string name="categories_empty_archived">No archived categories.</string>
+    <string name="categories_empty_active">Create categories to organize your expenses.</string>
+    <string name="categories_saved">Category saved</string>
+
+    <!-- Category Groups & Picker -->
+    <string name="category_group_food_drink">Food and Drink</string>
+    <string name="category_group_transport">Transport</string>
+    <string name="category_group_education_work">Education and Work</string>
+    <string name="category_group_housing_bills">Housing and Bills</string>
+    <string name="category_group_health_personal">Health and Personal</string>
+    <string name="category_group_lifestyle_fun">Lifestyle and Fun</string>
+    <string name="category_group_money_obligations">Money and Obligations</string>
+    <string name="category_group_family_pets">Family and Pets</string>
+    <string name="category_group_other">Other</string>
+
+    <string name="category_search_hint">Search category or group…</string>
+    <string name="category_recent_frequent">Recent &amp; Frequent</string>
+    <string name="category_all_categories">All Categories</string>
+    <string name="category_browse_all">Browse all (%1$d)</string>
+    <string name="category_no_results">No matching categories found</string>
+    <string name="category_select_title">Select Category</string>
+
+    <!-- Budget Screen -->
+    <string name="budget_title">Monthly Budget</string>
+    <string name="budget_total_limit_label">Total Monthly Limit</string>
+    <string name="budget_waste_limit_label">Waste Limit (Optional)</string>
+    <string name="budget_waste_limit_desc">Set a spending cap specifically for non-essential (Waste) expenses.</string>
+    <string name="budget_save">Save Budget</string>
+    <string name="budget_saved_message">Budget saved</string>
+    <string name="budget_delete">Remove Budget</string>
+    <string name="budget_deleted_message">Budget removed</string>
+    <string name="budget_help_text" formatted="false">We will alert you on the Home dashboard when spending reaches 80% and 100% of these limits.</string>
+    <string name="budget_warning_80" formatted="false">Warning: 80% threshold</string>
+    <string name="budget_warning_100" formatted="false">Critical: 100% budget reached</string>
+    <string name="budget_error_invalid_total">Please enter a total budget greater than 0</string>
+    <string name="budget_error_waste_exceeds_total">Waste limit cannot exceed total budget</string>
+    <string name="budget_no_budget_set">No budget set for this month</string>
+    <string name="budget_overall_desc">Set a spending limit to stay in control of your monthly expenses.</string>
+    <string name="budget_current_progress">Current Spending Progress</string>
+    <string name="budget_days_remaining">%1$d days remaining</string>
+    <string name="budget_status_spent">%1$s of %2$s</string>
+
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_preferences">Preferences</string>
+    <string name="settings_currency">Currency Symbol</string>
+    <string name="settings_week_start">Week Starts On</string>
+    <string name="settings_week_start_mon">Monday</string>
+    <string name="settings_week_start_sun">Sunday</string>
+    <string name="settings_theme">App Theme</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_pure_black">Pure Black (AMOLED)</string>
+    <string name="settings_theme_pure_black_desc">Use true pitch-black surfaces in dark mode for OLED power saving</string>
+    <string name="settings_theme_dynamic_color">Dynamic Color</string>
+    <string name="settings_theme_dynamic_color_desc">Sample theme colors from device wallpaper (Android 12+)</string>
+    <string name="settings_section_notifications">Reminders &amp; Summaries</string>
+    <string name="settings_daily_reminder">Daily Reminder</string>
+    <string name="settings_daily_reminder_desc">Receive an evening reminder to log your daily spending</string>
+    <string name="settings_weekly_summary">Weekly Summary</string>
+    <string name="settings_weekly_summary_desc">Receive a spending digest every Sunday evening</string>
+    <string name="settings_monthly_summary">Monthly Summary</string>
+    <string name="settings_monthly_summary_desc">Receive a monthly habit overview on the 1st of each month</string>
+    <string name="settings_section_manage">Manage</string>
+    <string name="settings_manage_categories">Categories</string>
+    <string name="settings_manage_categories_desc">Customize category names, colors, and default types</string>
+    <string name="settings_manage_budget">Monthly Budget</string>
+    <string name="settings_manage_budget_desc">Configure overall budget and optional waste spending cap</string>
+    <string name="settings_section_about">About SpendSense</string>
+    <string name="settings_about_desc">Offline-first personal finance tracker splitting expenses into Need vs Waste.</string>
+    <string name="settings_version">Version 1.1.0</string>
+    <string name="settings_built_by">Developed by Adithiyan V R · Supernovea</string>
+    <string name="settings_privacy_note">100% Offline · Private by default · Zero tracking</string>
+    <string name="settings_section_danger">Danger Zone</string>
+    <string name="settings_delete_all">Delete All Data</string>
+    <string name="settings_delete_all_desc">Permanently erase all expenses and reset budgets</string>
+    <string name="settings_delete_confirm_title">Delete all data?</string>
+    <string name="settings_delete_confirm_msg">This action is irreversible. All logged transactions and budgets will be permanently deleted.</string>
+    <string name="settings_delete_confirm_action">Yes, delete everything</string>
+    <string name="settings_deleted_success">All data has been reset</string>
+
+    <!-- Export & Backup -->
+    <string name="settings_section_backup">Export &amp; Backup</string>
+    <string name="settings_export_csv">Export Expenses (CSV)</string>
+    <string name="settings_export_csv_desc">Download a spreadsheet of all logged expenses</string>
+    <string name="settings_export_json">Export Backup (JSON)</string>
+    <string name="settings_export_json_desc">Create a portable backup file of your entire database</string>
+    <string name="settings_import_json">Restore from Backup (JSON)</string>
+    <string name="settings_import_json_desc">Restore transactions, categories, and monthly budgets</string>
+    <string name="settings_last_backup">Last backup: %1$s</string>
+    <string name="settings_last_backup_never">Last backup: Never</string>
+    <string name="settings_backup_warning">Backup recommended (over 30 days old)</string>
+    <string name="settings_import_title">Restore Backup</string>
+    <string name="settings_import_msg">Choose how to restore your data. \'Merge\' adds new entries without overwriting existing data. \'Replace\' wipes current data first.</string>
+    <string name="settings_import_merge">Merge</string>
+    <string name="settings_import_merge_desc">Preserve existing data and append imported records</string>
+    <string name="settings_import_replace">Replace Everything</string>
+    <string name="settings_import_replace_desc">Erase current database completely before restoring</string>
+    <string name="settings_import_success">Backup restored (%1$d expenses restored)</string>
+    <string name="settings_export_success">Data exported successfully</string>
+    <string name="settings_export_error">Failed to export data</string>
+    <string name="settings_import_error">Failed to restore backup: %1$s</string>
+    <string name="settings_processing">Processing…</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_reminders_name">Daily Reminders</string>
+    <string name="notif_channel_reminders_desc">Evening reminders to log your daily spending</string>
+    <string name="notif_channel_summaries_name">Spending Summaries</string>
+    <string name="notif_channel_summaries_desc">Weekly digests, monthly overviews, and backup reminders</string>
+    <string name="notif_daily_reminder_title">Log today\'s spending</string>
+    <string name="notif_daily_reminder_body">Take 30 seconds to record today\'s expenses in SpendSense.</string>
+    <string name="notif_weekly_summary_title">Weekly Spending Digest</string>
+    <string name="notif_weekly_summary_body">You spent %1$s this week (Waste: %2$d%%). Tap to review your habits.</string>
+    <string name="notif_weekly_summary_public_body">Tap to review your weekly spending habits and insights.</string>
+    <string name="notif_monthly_summary_title">Monthly Habit Overview</string>
+    <string name="notif_monthly_summary_body">Last month\'s spending was %1$s across %2$d clean days. Check your full breakdown.</string>
+    <string name="notif_monthly_summary_public_body">Tap to review your monthly spending habits and clean days.</string>
+    <string name="notif_backup_reminder_title">Backup Your Financial Data</string>
+    <string name="notif_backup_reminder_body">It has been over 30 days since your last backup. Keep a local backup file safe.</string>
+
+
+    <!-- Accessibility Descriptions -->
+    <string name="cd_back">Back</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_edit">Edit</string>
+    <string name="cd_category_icon">Category icon</string>
+    <string name="cd_keypad_backspace">Backspace</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="cd_previous_period">Previous period</string>
+    <string name="cd_next_period">Next period</string>
+    <string name="cd_chart_bar">%1$s: Total %2$s, Need %3$s, Waste %4$s</string>
+    <string name="loading_spendsense">Loading SpendSense</string>
+
+    <!-- Step U5: Onboarding Strings (UX-01 / FR-064 / FR-065) -->
+    <string name="onboarding_welcome_title">Master Your Spending</string>
+    <string name="onboarding_welcome_subtitle">Track every rupee honestly. Separate essential needs from avoidable waste. 100% offline and private.</string>
+    <string name="onboarding_profile_title">Choose your profile</string>
+    <string name="onboarding_profile_subtitle">This customizes labels and suggestions to fit your lifestyle. You can change this anytime.</string>
+    <string name="profile_student_title">Student</string>
+    <string name="profile_student_desc">Pocket money, allowance, campus expenses, and hostel life</string>
+    <string name="profile_professional_title">Working Professional</string>
+    <string name="profile_professional_desc">Salary, freelance, bills, investments, and household budgets</string>
+    <string name="profile_other_title">Other</string>
+    <string name="profile_other_desc">Personal budgeting, investments, and everyday tracking</string>
+    <string name="onboarding_balance_title">Opening balance (Optional)</string>
+    <string name="onboarding_balance_subtitle">Enter any cash in hand, bank balance, or current allowance you have starting out.</string>
+    <string name="onboarding_balance_hint">0</string>
+    <string name="onboarding_skip">Skip for now</string>
+    <string name="onboarding_next">Continue</string>
+    <string name="onboarding_finish">Get Started</string>
+
+    <!-- Step U5: Speed Dial & Shortcuts (UX-04) -->
+    <string name="speed_dial_expense">Add Expense</string>
+    <string name="speed_dial_income">Add Income</string>
+    <string name="shortcut_add_expense_short">Expense</string>
+    <string name="shortcut_add_expense_long">Add new expense</string>
+    <string name="shortcut_add_income_short">Income</string>
+    <string name="shortcut_add_income_long">Add new income</string>
+
+    <!-- Step U5: Income & Add Screen Tabs (UPD-01 / UX-03) -->
+    <string name="tab_expense">Expense</string>
+    <string name="tab_income">Income</string>
+    <string name="add_income_title">Add Income</string>
+    <string name="add_pocket_money_title">Add Pocket Money</string>
+    <string name="edit_income_title">Edit Income</string>
+    <string name="income_source_label">Income Source</string>
+    <string name="income_source_select">Select Source</string>
+    <string name="income_saved_message">Income recorded</string>
+    <string name="income_updated_message">Income updated</string>
+    <string name="income_deleted_message">Income deleted</string>
+    <string name="error_source_required">Please select an income source</string>
+    <string name="income_badge">Received</string>
+
+    <!-- Step U5: History Tabs (FR-067 / UX-05) -->
+    <string name="history_tab_all">All</string>
+    <string name="history_tab_expenses">Expenses</string>
+    <string name="history_tab_income">Income</string>
+    <string name="history_day_spent">Spent: %1$s</string>
+    <string name="history_day_received">Received: %1$s</string>
+
+    <!-- Step U5: Home Redesign & Balance (UPD-02 / UX-02 / UX-08) -->
+    <string name="home_available_balance">Available Balance</string>
+    <string name="home_opening_balance">Opening balance %1$s</string>
+    <string name="home_received">Received</string>
+    <string name="home_spent">Spent</string>
+    <string name="home_net">Net</string>
+    <string name="home_saved_rate">Saved %1$d%%</string>
+    <string name="home_points_up">▲ %1$.0f pts</string>
+    <string name="home_points_down">▼ %1$.0f pts</string>
+    <string name="home_hidden_amounts_mask">••••</string>
+    <string name="cd_hide_amounts">Hide amounts</string>
+    <string name="cd_show_amounts">Show amounts</string>
+    <string name="home_need_vs_waste">Need vs Waste</string>
+    <string name="home_budget_progress">Monthly Budget</string>
+    <string name="home_days_left">~%1$d days left</string>
+    <string name="home_days_left_singular">~1 day left</string>
+    <string name="home_recent_title">Recent</string>
+    <string name="home_no_budget_set">No budget set</string>
+
+    <!-- Step U6: Charts & Switcher (UPD-03 / UPD-04) -->
+    <string name="chart_type_pie">Pie</string>
+    <string name="chart_type_line">Line</string>
+    <string name="chart_type_bar">Bar</string>
+    <string name="chart_filter_all">All</string>
+    <string name="chart_filter_need">Need</string>
+    <string name="chart_filter_waste">Waste</string>
+    <string name="chart_spending_by_category">Spending by Category</string>
+    <string name="chart_income_by_source">Income by Source</string>
+    <string name="chart_income_vs_expense">Income vs Expense</string>
+    <string name="chart_others">Others</string>
+    <string name="chart_others_details">%1$d categories merged</string>
+    <string name="chart_single_point_notice">Add more entries to see a trend</string>
+    <string name="chart_legend">Chart Legend</string>
+    <string name="chart_total">Total</string>
+    <string name="chart_tap_to_filter">Tap to filter or highlight</string>
+    <string name="cd_chart_pie">Category spending distribution chart</string>
+    <string name="cd_chart_line">Income and expense trend chart</string>
+    <string name="cd_slice_selected">%1$s: %2$d percent, %3$s</string>
+
+    <!-- Step U7: Analysis Custom Mode & Export Reports (UPD-03 / EXPORT-01 to EXPORT-06) -->
+    <string name="preset_today">Today</string>
+    <string name="preset_last_7_days">Last 7 days</string>
+    <string name="preset_last_30_days">Last 30 days</string>
+    <string name="preset_this_month">This month</string>
+    <string name="preset_last_month">Last month</string>
+    <string name="preset_last_3_months">Last 3 months</string>
+    <string name="preset_this_year">This year</string>
+    <string name="preset_custom_range">Custom range</string>
+
+    <string name="date_range_picker_title">Select date range</string>
+    <string name="date_range_error_future">End date cannot be in the future</string>
+    <string name="date_range_error_max_5_years">Maximum range is 5 years</string>
+    <string name="date_range_error_invalid">Start date must be before or equal to end date</string>
+
+    <string name="export_report_button">Export</string>
+    <string name="cd_export_report">Export report</string>
+    <string name="export_dialog_title">Export Report</string>
+    <string name="export_dialog_subtitle">Export financial summary and transactions for %1$s.</string>
+    <string name="export_format_label">Format</string>
+    <string name="export_format_pdf">PDF Report (.pdf)</string>
+    <string name="export_format_pdf_desc">Formatted financial summary with metrics, charts &amp; tables</string>
+    <string name="export_format_csv">CSV Data (.csv)</string>
+    <string name="export_format_csv_desc">Raw transaction records for spreadsheets &amp; analysis</string>
+    <string name="export_include_notes">Include personal notes</string>
+    <string name="export_include_notes_sub">May contain sensitive or private remarks</string>
+    <string name="export_action_save">Save to device</string>
+    <string name="export_action_share">Share report</string>
+    <string name="export_unencrypted_warning">Exported files are not encrypted. Share them only with people you trust.</string>
+    <string name="export_success_saved">Report saved successfully</string>
+    <string name="export_success_shared">Report ready for sharing</string>
+    <string name="export_failed">Failed to export report: %1$s</string>
+    <string name="export_empty_notice">No transactions found in this period to export</string>
+
+    <string name="export_pdf_title">SpendSense Financial Report</string>
+    <string name="export_pdf_generated_on">Generated on %1$s</string>
+    <string name="export_pdf_period">Period: %1$s (%2$d days)</string>
+    <string name="export_pdf_profile">Profile: %1$s</string>
+    <string name="export_pdf_money_summary">Money Summary</string>
+    <string name="export_pdf_received">Received</string>
+    <string name="export_pdf_spent">Spent</string>
+    <string name="export_pdf_net">Net</string>
+    <string name="export_pdf_savings_rate">Savings Rate</string>
+    <string name="export_pdf_need_vs_waste">Need vs Waste</string>
+    <string name="export_pdf_waste_ratio">Waste Ratio</string>
+    <string name="export_pdf_categories">Spending by Category</string>
+    <string name="export_pdf_income_sources">Income by Source</string>
+    <string name="export_pdf_highlights">Period Highlights</string>
+    <string name="export_pdf_peak_day">Peak Spending Day</string>
+    <string name="export_pdf_avg_daily">Avg Daily Spend</string>
+    <string name="export_pdf_clean_days">Clean Days</string>
+    <string name="export_pdf_insights">Key Insights</string>
+
+    <!-- Step U8: Privacy, Security & App Lock -->
+    <string name="lock_screen_title">SpendSense is Locked</string>
+    <string name="lock_screen_subtitle">Enter your PIN or use biometrics to continue</string>
+    <string name="lock_screen_enter_pin">Enter PIN</string>
+    <string name="lock_screen_wrong_pin">Incorrect PIN</string>
+    <string name="lock_screen_lockout_warning">Too many failed attempts. Try again in %1$ds</string>
+    <string name="lock_screen_biometric_button">Unlock with Biometrics</string>
+    <string name="lock_screen_biometric_title">Unlock SpendSense</string>
+    <string name="lock_screen_biometric_subtitle">Confirm your identity to open SpendSense</string>
+    <string name="lock_screen_forgot_pin">Forgot PIN?</string>
+    <string name="lock_screen_forgot_pin_title">Forgot PIN?</string>
+    <string name="lock_screen_forgot_pin_message">If you have forgotten your PIN, you can unlock using your device credentials if biometrics are enabled, or you will need to clear app data in Android Settings.</string>
+    <string name="lock_screen_forgot_pin_device_auth">Use Device Unlock</string>
+    <string name="lock_screen_forgot_pin_close">Cancel</string>
+
+    <string name="privacy_security_title">Privacy &amp; Security</string>
+    <string name="privacy_security_subtitle">App lock, biometrics, screen protection, and encrypted backup</string>
+    <string name="privacy_security_section_app_lock">App Lock &amp; Authentication</string>
+    <string name="privacy_security_app_lock_enable">Enable App Lock</string>
+    <string name="privacy_security_app_lock_enable_desc">Require PIN or biometric authentication to open SpendSense</string>
+    <string name="privacy_security_biometric_enable">Biometric Unlock</string>
+    <string name="privacy_security_biometric_enable_desc">Unlock with fingerprint or face recognition when opening app</string>
+    <string name="privacy_security_biometric_unavailable">Biometrics not enrolled on this device</string>
+    <string name="privacy_security_set_pin">Set Security PIN</string>
+    <string name="privacy_security_set_pin_desc">Create a 4 to 6-digit PIN</string>
+    <string name="privacy_security_change_pin">Change Security PIN</string>
+    <string name="privacy_security_change_pin_desc">Update your current 4 to 6-digit PIN</string>
+    <string name="privacy_security_timeout">Auto-Lock Timeout</string>
+    <string name="privacy_security_timeout_desc">How quickly the app locks when moved to background</string>
+    <string name="privacy_security_timeout_immediately">Immediately</string>
+    <string name="privacy_security_timeout_30s">30 seconds</string>
+    <string name="privacy_security_timeout_1m">1 minute</string>
+    <string name="privacy_security_timeout_5m">5 minutes</string>
+    <string name="privacy_security_section_screen_notif">Screen &amp; Notification Privacy</string>
+    <string name="privacy_security_flag_secure">Screen Protection</string>
+    <string name="privacy_security_flag_secure_desc">Block screenshots and obscure app content in recent apps preview</string>
+    <string name="privacy_security_notif_privacy">Notification Privacy</string>
+    <string name="privacy_security_notif_privacy_desc">Hide transaction amounts from lock screen notifications</string>
+    <string name="privacy_security_section_encrypted_backup">Encrypted Backup (.ssbackup)</string>
+    <string name="privacy_security_encrypted_backup_desc">Military-grade encrypted backup using PBKDF2-HMAC-SHA256 (100,000 iterations) and AES-256-GCM. Requires a password of at least 8 characters.</string>
+    <string name="privacy_security_export_backup">Export Encrypted Backup</string>
+    <string name="privacy_security_export_backup_desc">Save a password-protected .ssbackup file</string>
+    <string name="privacy_security_import_backup">Restore Encrypted Backup</string>
+    <string name="privacy_security_import_backup_desc">Restore data from a password-protected .ssbackup file</string>
+    <string name="privacy_security_section_honest_limits">Honest Security Limits</string>
+    <string name="privacy_security_honest_limits_card">SpendSense is 100% offline with zero network connectivity. Your financial data never leaves your device.\n\nNote: If your device is rooted or physically compromised, local database storage may be vulnerable. Maintain a secure lock screen on your device and store encrypted backups safely.</string>
+    <string name="privacy_security_pin_dialog_title_set">Set PIN</string>
+    <string name="privacy_security_pin_dialog_title_confirm">Confirm PIN</string>
+    <string name="privacy_security_pin_dialog_title_current">Enter Current PIN</string>
+    <string name="privacy_security_pin_dialog_title_new">Enter New PIN</string>
+    <string name="privacy_security_pin_mismatch">PINs do not match. Try again.</string>
+    <string name="privacy_security_pin_incorrect">Current PIN is incorrect.</string>
+    <string name="privacy_security_pin_length_error">PIN must be between 4 and 6 digits.</string>
+    <string name="privacy_security_pin_saved">Security PIN updated successfully</string>
+    <string name="privacy_security_password_dialog_title_export">Set Backup Password</string>
+    <string name="privacy_security_password_dialog_title_import">Enter Backup Password</string>
+    <string name="privacy_security_password_label">Password</string>
+    <string name="privacy_security_password_confirm_label">Confirm Password</string>
+    <string name="privacy_security_password_min_length">Password must be at least 8 characters</string>
+    <string name="privacy_security_password_mismatch">Passwords do not match</string>
+    <string name="privacy_security_strength_weak">Weak</string>
+    <string name="privacy_security_strength_fair">Fair</string>
+    <string name="privacy_security_strength_good">Good</string>
+    <string name="privacy_security_strength_strong">Strong</string>
+    <string name="privacy_security_export_success">Encrypted backup exported successfully</string>
+    <string name="privacy_security_import_success">Encrypted backup restored (%1$d expenses restored)</string>
+    <string name="privacy_security_import_invalid_password">Incorrect password or corrupted backup file</string>
+</resources>

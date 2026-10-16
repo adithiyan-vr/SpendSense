@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ SpendSense
+  ~ Copyright (c) 2026 Supernovea
+  ~ Developed by Adithiyan V R
+  -->
+<paths>
+    <cache-path name="exports" path="exports/" />
+</paths>

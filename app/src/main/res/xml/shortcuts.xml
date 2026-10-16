@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ SpendSense
+  ~ Copyright (c) 2026 Supernovea
+  ~ Developed by Adithiyan V R
+  -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut_add_expense"
+        android:enabled="true"
+        android:icon="@drawable/ic_stat_spendsense"
+        android:shortcutShortLabel="@string/shortcut_add_expense_short"
+        android:shortcutLongLabel="@string/shortcut_add_expense_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.supernovea.spendsense"
+            android:targetClass="com.supernovea.spendsense.MainActivity">
+            <extra android:name="shortcut_action" android:value="add_expense" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut_add_income"
+        android:enabled="true"
+        android:icon="@drawable/ic_stat_spendsense"
+        android:shortcutShortLabel="@string/shortcut_add_income_short"
+        android:shortcutLongLabel="@string/shortcut_add_income_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.supernovea.spendsense"
+            android:targetClass="com.supernovea.spendsense.MainActivity">
+            <extra android:name="shortcut_action" android:value="add_income" />
+        </intent>
+    </shortcut>
+</shortcuts>
