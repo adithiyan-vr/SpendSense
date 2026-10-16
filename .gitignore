@@ -1,0 +1,10 @@
+# Release artifacts and keys (attach APKs to GitHub Releases instead)
+/release/
+*.jks
+*.keystore
+keystore.properties
+local.properties
+
+# Generator reference media
+design-refs/Logo-ref.jpeg
+design-refs/Loader-Animation-Ref.mp4
