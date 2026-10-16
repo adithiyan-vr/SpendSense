@@ -151,13 +151,6 @@ SpendSense is **not on Google Play yet**. When you install an APK from outside t
 
 | File | Purpose |
 |---|---|
-| [`PRD.md`](PRD.md) | Product requirements and analytics formulas |
-| [`Architecture.md`](Architecture.md) | Layers, schema, security and build design |
-| [`Design.md`](Design.md) | Colors, typography, components and screens |
-| [`Update.md`](Update.md) | Specification for Update 1 (income, reports, charts, security) |
-| [`Rules.md`](Rules.md) | Coding, testing, privacy and workflow rules |
-| [`To-do.md`](To-do.md) | Phased task list |
-| [`Memory.md`](Memory.md) | Decision log, status and session history |
 | [`PRIVACY.md`](PRIVACY.md) | Privacy and security details |
 | [`CHANGELOG.md`](CHANGELOG.md) | Version history |
 | [`Company_Organization(credits).md`](<Company_Organization(credits).md>) | Ownership, credits and third-party licenses |
