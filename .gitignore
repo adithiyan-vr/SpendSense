@@ -1,10 +1,26 @@
-# Release artifacts and keys (attach APKs to GitHub Releases instead)
-/release/
-*.jks
-*.keystore
-keystore.properties
+# Gradle and build artifacts
+.gradle/
+**/.gradle/
+build/
+**/build/
+app/build/
+*.iml
+.idea/
 local.properties
 
-# Generator reference media
-design-refs/Logo-ref.jpeg
-design-refs/Loader-Animation-Ref.mp4
+# Android and Kotlin
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+*.apk
+*.aab
+
+# Keystores and secrets
+keystore.properties
+*.jks
+*.keystore
+
+# OS & Tooling
+.DS_Store
+.gemini/

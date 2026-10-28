@@ -1,2 +1,85 @@
-# Auto detect text files and perform LF normalization
+# Auto detect text files and perform LF normalization on commit
 * text=auto
+
+# Source code and scripts (enforce LF)
+*.kt text eol=lf
+*.kts text eol=lf
+*.java text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.xml text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.properties text eol=lf
+*.gradle text eol=lf
+*.pro text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.editorconfig text eol=lf
+
+# Linux / Unix shell scripts (must be LF)
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Windows batch & PowerShell scripts (must be CRLF)
+gradlew.bat text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files - Git should not touch or alter line endings
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+
+# Audio and Video
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.mp4 binary
+*.m4a binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Android & Java binaries / archives
+*.jar binary
+*.aar binary
+*.apk binary
+*.aab binary
+*.keystore binary
+*.jks binary
+*.key binary
+
+# Databases & cache
+*.db binary
+*.db-shm binary
+*.db-wal binary
+*.sqlite binary
+*.sqlite3 binary
+
+# Archives & Executables
+*.zip binary
+*.tar binary
+*.gz binary
+*.rar binary
+*.7z binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
