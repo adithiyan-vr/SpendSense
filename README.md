@@ -11,7 +11,7 @@
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?logo=kotlin&logoColor=white">
   <img alt="Offline" src="https://img.shields.io/badge/Internet%20permission-none-2AC1AE">
   <img alt="Encrypted" src="https://img.shields.io/badge/Database-AES--256%20encrypted-F5943B">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-1E60B4">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-1E60B4">
 </p>
 
 SpendSense is an **offline-first Android app** that tags every expense as **Needed** (Required) or **Wasted** (Non-Required, the "Mal" expense), records the money you receive (pocket money or income), and turns both into **weekly, monthly and custom-range reports**.
