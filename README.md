@@ -194,7 +194,7 @@ Copyright © 2026 Supernovea. All rights reserved.
 
 A source-code license has not been chosen yet. Until one is added, no permission is granted to copy, modify or redistribute this code.
 <p align = "center">
-  <video src="./design-refs/promo/Promo.mp4" width="400" autoplay muted loop playsinline></video>
+  <video src="/design-refs/promo/Promo.mp4" width="200" autoplay muted loop playsinline></video>
 </p>
 <!--
 SCREENSHOTS (add once captured, then delete this comment):
